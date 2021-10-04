@@ -22,11 +22,10 @@ const AboutPage = () => {
             </Link>
             <Footer />
             <div className="about-card">
-                <PlayerCard name={player} />
-                <PlayerCard name={player2} />
-                <PlayerCard name={player3} />
+                <PlayerCard name={player} age="19" />
+                <PlayerCard name={player2} age="18" />
+                <PlayerCard name={player3} age="20" />
             </div>
-            
         </React.Fragment>
     )
 }
