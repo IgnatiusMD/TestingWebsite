@@ -2,3 +2,18 @@
     font-size: 96px;
     background-color: $yellow;
 }
+.about-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.playerCard-Box{
+    width: 50%;
+    background-color: royalblue;
+    padding: 25px;
+    font-family: "PoppinsSemiBold";
+    display: flex;
+    justify-content: center;
+}
