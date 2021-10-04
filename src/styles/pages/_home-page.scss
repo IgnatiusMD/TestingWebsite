@@ -1,3 +1,28 @@
 .home-title{
     font-size: 96px;
 }
+
+.home-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card-box{
+    background-color: royalblue;
+    width: 20%;
+    padding: 10px;
+    border-radius: 16px;
+
+    .card-head{
+        font-family: "PoppinsExtraBold";
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    .card-content{
+        font-family: "PoppinsSemiBold";
+        font-size: 12px;
+        text-align: center;
+    }
+}
