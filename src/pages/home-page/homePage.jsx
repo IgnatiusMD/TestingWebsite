@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Header from "../../component/common/Header";
+import Navbar from "../../component/common/Navbar";
 import Footer from "../../component/common/Footer";
 import Card from "../../component/pages/Card";
 
 const HomePage = () => {
     return (
         <React.Fragment>
-            <Header />
+            <Navbar />
             <div className="home-title">
                 HOME PAGE
             </div>

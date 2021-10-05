@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Header from "../../component/common/Header";
+import Navbar from "../../component/common/Navbar";
 import Footer from "../../component/common/Footer";
 import PlayerCard from "../../component/pages/PlayerCard";
 
@@ -11,7 +11,7 @@ const AboutPage = () => {
     const player3="Ervin";
     return (
         <React.Fragment>
-            <Header />
+            <Navbar />
             <div className="about-title">
                 ABOUT PAGE
             </div>
